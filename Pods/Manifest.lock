@@ -1,0 +1,20 @@
+PODS:
+  - GMStepper (2.2)
+  - RoundedSwitch (2.0.2)
+
+DEPENDENCIES:
+  - GMStepper (= 2.2)
+  - RoundedSwitch (= 2.0.2)
+
+SPEC REPOS:
+  trunk:
+    - GMStepper
+    - RoundedSwitch
+
+SPEC CHECKSUMS:
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
+  RoundedSwitch: 0ef74a23fdcce059d5225ee181c45f7106ae0d4d
+
+PODFILE CHECKSUM: e137d551549ec270dd82c2299f8947ed519d282f
+
+COCOAPODS: 1.8.3

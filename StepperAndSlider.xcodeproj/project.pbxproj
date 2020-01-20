@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09730A837595278F998D517E /* Pods_StepperAndSliderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24782A511A7E6A8BE275CD1B /* Pods_StepperAndSliderTests.framework */; };
+		203EB50EF9D28B8157888186 /* Pods_StepperAndSlider_StepperAndSliderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E221F24480151E74678F0EB8 /* Pods_StepperAndSlider_StepperAndSliderUITests.framework */; };
 		31ED0DE02331E258002901E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED0DDF2331E258002901E8 /* AppDelegate.swift */; };
 		31ED0DE22331E258002901E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED0DE12331E258002901E8 /* ViewController.swift */; };
 		31ED0DE52331E258002901E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31ED0DE32331E258002901E8 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		31ED0DEA2331E25B002901E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31ED0DE82331E25B002901E8 /* LaunchScreen.storyboard */; };
 		31ED0DF52331E25B002901E8 /* StepperAndSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED0DF42331E25B002901E8 /* StepperAndSliderTests.swift */; };
 		31ED0E002331E25B002901E8 /* StepperAndSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ED0DFF2331E25B002901E8 /* StepperAndSliderUITests.swift */; };
+		6943F23C938F994EC41F62A1 /* Pods_StepperAndSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B74760C7209083CBEDA6175 /* Pods_StepperAndSlider.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24782A511A7E6A8BE275CD1B /* Pods_StepperAndSliderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepperAndSliderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B74760C7209083CBEDA6175 /* Pods_StepperAndSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepperAndSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31ED0DDC2331E258002901E8 /* StepperAndSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperAndSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31ED0DDF2331E258002901E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31ED0DE12331E258002901E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		31ED0DFB2331E25B002901E8 /* StepperAndSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepperAndSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31ED0DFF2331E25B002901E8 /* StepperAndSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperAndSliderUITests.swift; sourceTree = "<group>"; };
 		31ED0E012331E25B002901E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458E8E26F9214AB36F9AE7BD /* Pods-StepperAndSliderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSliderTests.release.xcconfig"; path = "Target Support Files/Pods-StepperAndSliderTests/Pods-StepperAndSliderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8B56FC5F139F7630DE7216 /* Pods-StepperAndSlider-StepperAndSliderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSlider-StepperAndSliderUITests.debug.xcconfig"; path = "Target Support Files/Pods-StepperAndSlider-StepperAndSliderUITests/Pods-StepperAndSlider-StepperAndSliderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EE68046CA4A40A13D923B1 /* Pods-StepperAndSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSlider.debug.xcconfig"; path = "Target Support Files/Pods-StepperAndSlider/Pods-StepperAndSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC48A172B8CF527299562FB /* Pods-StepperAndSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSlider.release.xcconfig"; path = "Target Support Files/Pods-StepperAndSlider/Pods-StepperAndSlider.release.xcconfig"; sourceTree = "<group>"; };
+		69758789BA245CA561E48B50 /* Pods-StepperAndSliderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSliderTests.debug.xcconfig"; path = "Target Support Files/Pods-StepperAndSliderTests/Pods-StepperAndSliderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C96D16DEDE9F621B393183E4 /* Pods-StepperAndSlider-StepperAndSliderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepperAndSlider-StepperAndSliderUITests.release.xcconfig"; path = "Target Support Files/Pods-StepperAndSlider-StepperAndSliderUITests/Pods-StepperAndSlider-StepperAndSliderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E221F24480151E74678F0EB8 /* Pods_StepperAndSlider_StepperAndSliderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepperAndSlider_StepperAndSliderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6943F23C938F994EC41F62A1 /* Pods_StepperAndSlider.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09730A837595278F998D517E /* Pods_StepperAndSliderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				203EB50EF9D28B8157888186 /* Pods_StepperAndSlider_StepperAndSliderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				31ED0DF32331E25B002901E8 /* StepperAndSliderTests */,
 				31ED0DFE2331E25B002901E8 /* StepperAndSliderUITests */,
 				31ED0DDD2331E258002901E8 /* Products */,
+				E4DD48B3FA4713EB411FC5D3 /* Pods */,
+				FDE8DF283BB313C4A696308B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = StepperAndSliderUITests;
 			sourceTree = "<group>";
 		};
+		E4DD48B3FA4713EB411FC5D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50EE68046CA4A40A13D923B1 /* Pods-StepperAndSlider.debug.xcconfig */,
+				5AC48A172B8CF527299562FB /* Pods-StepperAndSlider.release.xcconfig */,
+				4F8B56FC5F139F7630DE7216 /* Pods-StepperAndSlider-StepperAndSliderUITests.debug.xcconfig */,
+				C96D16DEDE9F621B393183E4 /* Pods-StepperAndSlider-StepperAndSliderUITests.release.xcconfig */,
+				69758789BA245CA561E48B50 /* Pods-StepperAndSliderTests.debug.xcconfig */,
+				458E8E26F9214AB36F9AE7BD /* Pods-StepperAndSliderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDE8DF283BB313C4A696308B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B74760C7209083CBEDA6175 /* Pods_StepperAndSlider.framework */,
+				E221F24480151E74678F0EB8 /* Pods_StepperAndSlider_StepperAndSliderUITests.framework */,
+				24782A511A7E6A8BE275CD1B /* Pods_StepperAndSliderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31ED0E042331E25B002901E8 /* Build configuration list for PBXNativeTarget "StepperAndSlider" */;
 			buildPhases = (
+				6C43A6259338B151970B6FB1 /* [CP] Check Pods Manifest.lock */,
 				31ED0DD82331E258002901E8 /* Sources */,
 				31ED0DD92331E258002901E8 /* Frameworks */,
 				31ED0DDA2331E258002901E8 /* Resources */,
+				4F9B87E4585986FCA02BCDDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31ED0E072331E25B002901E8 /* Build configuration list for PBXNativeTarget "StepperAndSliderTests" */;
 			buildPhases = (
+				ACCD1E50E012DB295B7B9AE4 /* [CP] Check Pods Manifest.lock */,
 				31ED0DEC2331E25B002901E8 /* Sources */,
 				31ED0DED2331E25B002901E8 /* Frameworks */,
 				31ED0DEE2331E25B002901E8 /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31ED0E0A2331E25B002901E8 /* Build configuration list for PBXNativeTarget "StepperAndSliderUITests" */;
 			buildPhases = (
+				5BAB15D42B2294F4FEF3F86B /* [CP] Check Pods Manifest.lock */,
 				31ED0DF72331E25B002901E8 /* Sources */,
 				31ED0DF82331E25B002901E8 /* Frameworks */,
 				31ED0DF92331E25B002901E8 /* Resources */,
+				5BA58821B43EC39BF0895BA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9B87E4585986FCA02BCDDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider/Pods-StepperAndSlider-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider/Pods-StepperAndSlider-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider/Pods-StepperAndSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA58821B43EC39BF0895BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider-StepperAndSliderUITests/Pods-StepperAndSlider-StepperAndSliderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider-StepperAndSliderUITests/Pods-StepperAndSlider-StepperAndSliderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepperAndSlider-StepperAndSliderUITests/Pods-StepperAndSlider-StepperAndSliderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAB15D42B2294F4FEF3F86B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepperAndSlider-StepperAndSliderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C43A6259338B151970B6FB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepperAndSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCD1E50E012DB295B7B9AE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepperAndSliderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31ED0DD82331E258002901E8 /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		31ED0E052331E25B002901E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50EE68046CA4A40A13D923B1 /* Pods-StepperAndSlider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +597,7 @@
 		};
 		31ED0E062331E25B002901E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC48A172B8CF527299562FB /* Pods-StepperAndSlider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +615,7 @@
 		};
 		31ED0E082331E25B002901E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69758789BA245CA561E48B50 /* Pods-StepperAndSliderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		31ED0E092331E25B002901E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458E8E26F9214AB36F9AE7BD /* Pods-StepperAndSliderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		31ED0E0B2331E25B002901E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8B56FC5F139F7630DE7216 /* Pods-StepperAndSlider-StepperAndSliderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		31ED0E0C2331E25B002901E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96D16DEDE9F621B393183E4 /* Pods-StepperAndSlider-StepperAndSliderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

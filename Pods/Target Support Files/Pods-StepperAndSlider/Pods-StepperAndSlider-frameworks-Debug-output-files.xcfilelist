@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMStepper.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RoundedSwitch.framework

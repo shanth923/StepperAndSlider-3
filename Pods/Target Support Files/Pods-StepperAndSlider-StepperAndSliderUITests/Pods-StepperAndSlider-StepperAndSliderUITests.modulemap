@@ -1,0 +1,6 @@
+framework module Pods_StepperAndSlider_StepperAndSliderUITests {
+  umbrella header "Pods-StepperAndSlider-StepperAndSliderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
